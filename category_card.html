@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="max-w-5xl mx-auto py-8 px-4 sm:px-6 lg:px-8 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Browse By Category</h2>
+        <div class="flex justify-between items-center mb-6">
+            <div class="category-name">
+                <div class="vertical-line"></div>
+                <span class="text-sm text-gray-700 font-semibold uppercase">Categories</span>
+            </div>
+            <div class="flex space-x-2">
+                <button id="prevBtn" class="nav-button transition-all duration-300">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="nextBtn" class="nav-button transition-all duration-300">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+        <div id="categoryContainer" class="scroll-container">
+            <div class="category-card flex flex-col items-center cursor-pointer">
+                <div class="text-gray-600">
+                    <i class="fa-solid fa-shirt fa-2xl"></i>
+                </div>
+                <span class="mt-4 text-sm font-medium text-gray-700">Shirts</span>
+            </div>
+            <div class="category-card flex flex-col items-center cursor-pointer">
+                <div class="text-gray-600">
+                    <i class="fa-solid fa-shirt fa-2xl"></i>
+                </div>
+                <span class="mt-4 text-sm font-medium text-gray-700">Shirts</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

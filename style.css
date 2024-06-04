@@ -13,7 +13,7 @@
 
 .category-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    background: linear-gradient(145deg, #e0f7fa, #b2ebf2); /* Light blue gradients */
     border-radius: 16px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(255, 255, 255, 0.7);
     padding: 1.5rem;
@@ -25,27 +25,27 @@
 .category-card:hover {
     transform: translateY(-10px);
     box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.1), -6px -6px 16px rgba(255, 255, 255, 0.7);
-    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    background: linear-gradient(145deg, #b2ebf2, #e0f7fa); /* Reverse gradient on hover */
 }
 
 .gradient-bg {
-    background: linear-gradient(45deg, #DC2626, #DC2626);
+    background: linear-gradient(45deg, #0288d1, #26c6da); /* Darker blue gradients */
     padding: 0.5rem 1rem;
     border-radius: 9999px;
     color: white;
 }
 
 .category-icon {
-    color: #DC2626;
+    color: #0288d1; /* Matching icon color */
     transition: color 0.3s ease;
 }
 
 .category-card:hover .category-icon {
-    color: #ff4747;
+    color: #26c6da; /* Lighter blue on hover */
 }
 
 .nav-button {
-    background: linear-gradient(45deg, #DC2626, #DC2626);
+    background: linear-gradient(45deg, #0288d1, #26c6da); /* Matching button gradient */
     color: white;
     transition: background 0.3s ease;
     padding: 0.5rem 1rem;
@@ -53,11 +53,11 @@
 }
 
 .nav-button:hover {
-    background: linear-gradient(45deg, #ff4747, #ff4747);
+    background: linear-gradient(45deg, #26c6da, #0288d1); /* Reverse gradient on hover */
 }
 
 .vertical-line {
-    border-left: 5px solid #DC2626;
+    border-left: 5px solid #0288d1; /* Matching vertical line color */
     height: 24px;
     margin-right: 0.75rem;
 }
